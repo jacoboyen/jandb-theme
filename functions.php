@@ -37,8 +37,7 @@
 	// ----------------------------------------------------------------
 	add_theme_support('post-thumbnails');
 	if (function_exists('add_image_size')){
-		add_image_size('mobile-featured', 400);
-		add_image_size('desktop-featured', 1024, 300, array('left', 'center'));
+		add_image_size('post-featured', 500);
 	}
 	// ----------------------------------------------------------------
 	// Add custom header image
