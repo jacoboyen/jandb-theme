@@ -24,7 +24,7 @@
 			<?php if (has_post_thumbnail()){?>
 				<?php the_post_thumbnail('post-featured')?>
 			<?php } ?>			
-			<div class="content"><?php the_excerpt(); ?></div>
+			<div class="content"><?php the_content(); ?></div>
 			<p align="center"><a href="<?php echo the_permalink()?>" class="readMore">Read More</a></p>
 		</div>
 		<div class="clearBoth"></div>
