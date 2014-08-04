@@ -20,12 +20,12 @@
 			<div class="comments"><?php comments_number('Nobody is talking', 'A cricket is chirping', 'People are talking');?></div>
 		</div>
 		<div class="postContent">
-			<div class="title"><?php the_title(); ?></div>
+			<div class="title"><a href="<?php echo the_permalink()?>"><?php the_title(); ?></a></div>
 			<?php if (has_post_thumbnail()){?>
 				<?php the_post_thumbnail('post-featured')?>
 			<?php } ?>			
 			<div class="content"><?php the_content(); ?></div>
-			<p align="center"><a href="<?php echo the_permalink()?>" class="readMore">Read More</a></p>
+			<!---<p align="center"><a href="<?php echo the_permalink()?>" class="readMore">Read More</a></p>!--->
 		</div>
 		<div class="clearBoth"></div>
 	</div>

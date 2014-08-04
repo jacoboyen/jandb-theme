@@ -117,6 +117,10 @@ html{
 	color: #00448D;
 	margin: .25em;
 }
+.postContent .title a:link, .postContent .title a:hover, .postContent .title a:visited{
+	text-decoration: none;
+	color: #00448D;
+}
 .postContent .author{
 	color: #666666;
 	margin: .25em;
