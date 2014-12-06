@@ -17,7 +17,6 @@
 			<div class="postMonth"><?php echo get_the_date('F'); ?></div>
 			<div class="postDay"><?php echo get_the_date('j');?></div>
 			<div class="postYear"><?php echo get_the_date('Y');?></div>
-			<div class="comments"><?php comments_number('Nobody is talking', 'A cricket is chirping', 'People are talking');?></div>
 		</div>
 		<div class="postContent">
 			<div class="title"><a href="<?php echo the_permalink()?>"><?php the_title(); ?></a></div>
