@@ -151,6 +151,22 @@ html{
 	color: #00448D;
 	border: 1px solid #00448D;
 }
+.post_nav{
+	text-align: center;
+	margin: 1em;
+}
+.post_nav a:link, .post_nav a:visited{
+	background-color: #00448D;
+	color: #fff;
+	text-decoration: none;
+	padding: .25em .5em;
+	border-radius: .25em;
+}
+.post_nav a:hover{
+	background-color: #fff;
+	color: #00448D;
+	border: 1px solid #00448D;
+}
 @media only screen and (min-width:400px){
 	.post{
 		width: 50%;

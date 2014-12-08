@@ -32,5 +32,7 @@
 <?php endwhile; else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
-<?php posts_nav_link('&mdash;','Back in time','Forward in time'); ?>
+<div class="post_nav">
+	<?php posts_nav_link('&mdash;','Forward in time','Back in time'); ?>
+</div>
 <?php get_footer(); ?>
