@@ -8,8 +8,8 @@
         <?php wp_head();?>
     </head>
     <body>
-    	<div id="header">
-	    	<h1><a href="/">Jacob and Brita</a></h1>
+    	<div class="header">
+	    	<h1 class="header"><a href="/">Jacob and Brita</a></h1>
 	    </div>
         <img src="<?php header_image();?>" class="wideImage" alt="Jacob and Brita" ?>
 	    <div id="wrapper">
