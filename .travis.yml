@@ -6,6 +6,11 @@ php:
     - "5.5"
 notifications:
     email: false
+# whitelist
+branches:
+  only:
+    - master
+    - dev
 before_script:
     - npm install -g csslint
 script:
